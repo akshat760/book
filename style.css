@@ -6,7 +6,7 @@
 #loader{
     background-size: cover;
     background: black
-     url("w.gif")
+     url("/book/w.gif")
      no-repeat center;
     z-index: 99999999;
     object-fit: cover;
