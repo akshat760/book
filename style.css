@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#loader{
+    background-size: cover;
+    background: black
+     url("w.gif")
+     no-repeat center;
+    z-index: 99999999;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background: black 
+    url('https://i.pinimg.com/originals/b2/a3/e8/b2a3e872dfb354f73ee039a879d853f9.gif')
+     no-repeat center;
+    color: white;
+    padding: 48px;
+}
+.error, .error-form{
+    visibility: hidden;
+}
+.container-main .top-right{
+    text-align-last: right;
+    margin-top: -8%;
+}
+
+.caption{
+    color: blue;
+}
+.writters-name{
+    margin-top: 14%;
+}
+.writers{
+    margin-top: 20%;
+    color: blue;
+}
+.name-left{
+    margin-top: -2.5%;
+    margin-left: 25%;
+    text-overflow: initial;
+}
+.name-right{
+    margin-right: 25%;
+    text-align: right;
+}
+footer{
+    margin-top: 6%;
+}
+a{
+    text-decoration: none;
+}
+.next-page{
+    text-align: right;
+    color: blue;
+    margin-left: 90%;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* If the screen size is 599px or less*/
+@media only screen and (max-width: 599px) {
+    body{
+     background: url('https://i.makeagif.com/media/12-28-2017/GWuAA3.gif')
+     no-repeat center;
+     background-color: black;}
+    .main{
+        visibility: hidden;
+    }
+    .error, .error-form{
+     color: white;
+     visibility: visible;
+     margin-top: 15%;
+    }
+    .error-form input{
+        margin: 2%;
+        border-radius: 10px;
+        text-align: center;
+        background: transparent;
+        color: green;
+    }
+    .error-form button{
+        margin: 8px;
+        border-radius: 4px;
+        color: white;
+        text-align: center;
+        background-color: green;
+        color: red;
+    }}

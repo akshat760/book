@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#loader{
+    background-size: cover;
+    background: black
+    url("https://freefrontend.com/assets/img/css-loaders/loading-animation-css.gif")
+     no-repeat center;
+    z-index: 99999999;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+body{
+    background: black
+    url("https://thumbs.gfycat.com/HastyImpracticalBrant-size_restricted.gif")
+    no-repeat center;
+    color: whitesmoke;
+    padding: 15px;
+}
+.right{
+    text-align: right;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding-right: 8px;
+    margin: 10px;
+}
+.bgcolored{
+    margin-top: 20px;
+    margin-left: 22px;
+    font-weight: 600;
+}
+.bold-heading{
+    margin-top: 2px;
+    margin-left: 29px;
+    font-weight: 600;
+    color: skyblue;
+}
+.subtopic{
+    margin-left: 27px;
+    padding: 4px;
+    display: flex;
+    color: rgb(139, 139, 33);
+}
+.subtopic-name{
+    padding: 14px;
+    color: rgb(173, 83, 83);
+    text-decoration: none;
+}
+.subtopic114{
+    padding: 14px;
+    margin-left: 52px;
+    color: rgb(139, 139, 33);
+}
+.others{
+    padding: 4px;
+    margin-left: 27px;
+    color: rgb(139, 139, 33);
+}
+a{
+    color: rgb(139, 139, 33);
+    text-decoration: none;
+}
+a:hover{
+    color: green;   
+}
+
+
+https://freefrontend.com/assets/img/css-loaders/loading-animation-css.gif

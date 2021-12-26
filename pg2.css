@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#loader{
+    background-size: cover;
+    background: black
+     url("https://freefrontend.com/assets/img/css-loaders/loading-animation-css.gif")
+     no-repeat center;
+    z-index: 99999999;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+body{
+    background: black
+    url('https://cdn.dribbble.com/users/149180/screenshots/3208433/book_preloader.gif') no-repeat center;
+    padding: 50px;
+    color: whitesmoke;
+}
+hr{
+    margin: 4px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+    font-weight: 600;
+}
+footer{
+    text-align: right;
+    margin-top: 5%;
+}
+.names-writer{
+    color: blue;
+    font-weight: bold;
+}
