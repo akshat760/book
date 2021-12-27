@@ -90,6 +90,8 @@ a:hover{
         color: green;
     }
     .error-form button{
+        padding: 0.5%;
+        border: purple;
         margin: 8px;
         border-radius: 4px;
         color: white;
